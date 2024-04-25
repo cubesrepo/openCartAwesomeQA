@@ -26,17 +26,19 @@ Run commands:
 
 1. Add item name, click Pipeline and click OK
 
-   
+   ![img.png](img.png)
 2. Scroll down find Pipeline and Select pipeline script from SCM
 
-   
+   ![img_1.png](img_1.png)
 3. Choose GIT
 
-   
+   ![img_2.png](img_2.png)
 4. Enter the repo URL and click and save
 
-  
+  ![img_3.png](img_3.png)
 5. Click build now
+   
+   ![img_4.png](img_4.png)
 
    
 
