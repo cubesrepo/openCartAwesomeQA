@@ -1,0 +1,8 @@
+selenium==4.19.0
+pytest-order==1.2.1
+pytest-html==4.1.1
+pytest==8.1.1
+Faker==24.11.0
+pynput==1.7.6
+webdriver-manager==4.0.1
+
