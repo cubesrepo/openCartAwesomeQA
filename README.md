@@ -36,9 +36,10 @@ Run commands:
 4. Enter the repo URL and click and save
 
   ![img_3.png](img_3.png)
-5. Click build now
 
-  ![img_4.png](img_4.png)
+5. Click build now
+   
+![img_4.png](img_4.png)
    
 
 
