@@ -14,7 +14,7 @@ pipeline{
         }
         stage("Run test"){
             steps{
-                bat 'opencartVENV\\Scripts\\activate and pytest -v --html=report.html'
+                bat 'opencartVENV\\Scripts\\activate and pytest -v --html=report.html --headless'
             }
         }
     }
