@@ -1,6 +1,7 @@
 **Hello**🖐 **Automated Testing for opencartAwesomeQA Demo Website with (Selenium, Pytest, Page Object Model (POM), Allure Reports, Jenkins Pipeline)**
 
 This project automates the testing of the ReactShoppingCart demo site, focusing on essential user journeys such as valid registration, successful login, adding items to the cart, using the wishlist, and completing a full checkout flow.
+
 Aside from the main flow, I also tested several edge cases to make sure the system handles unusual user actions properly. 
 These include:
    - Registering with empty or incomplete fields 
