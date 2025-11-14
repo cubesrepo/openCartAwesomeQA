@@ -1,0 +1,59 @@
+2025-11-14 15:57:26,186 [INFO] [test_checkout_without_billing_details]: ===== Test session started =====
+2025-11-14 15:57:36,866 [INFO] LoginPage: Element is clickable: ('xpath', "//a[@title='My Account']")
+2025-11-14 15:57:36,967 [INFO] LoginPage: Element is clickable: ('xpath', "//a[text() = 'Register']")
+2025-11-14 15:57:38,046 [INFO] LoginPage: Element is clickable: ('xpath', "//input[@name='firstname']")
+2025-11-14 15:57:38,047 [INFO] LoginPage: Typing into 'Robert' into ('xpath', "//input[@name='firstname']")
+2025-11-14 15:57:38,214 [INFO] LoginPage: Element is clickable: ('xpath', "//input[@name='lastname']")
+2025-11-14 15:57:38,214 [INFO] LoginPage: Typing into 'Andrew' into ('xpath', "//input[@name='lastname']")
+2025-11-14 15:57:38,324 [INFO] LoginPage: Element is clickable: ('xpath', "//input[@name='email']")
+2025-11-14 15:57:38,324 [INFO] LoginPage: Typing into 'test1234smithsarah@example.com' into ('xpath', "//input[@name='email']")
+2025-11-14 15:57:38,484 [INFO] LoginPage: Element is clickable: ('xpath', "//input[@name='telephone']")
+2025-11-14 15:57:38,484 [INFO] LoginPage: Typing into '12332' into ('xpath', "//input[@name='telephone']")
+2025-11-14 15:57:38,633 [INFO] LoginPage: Element is clickable: ('xpath', "//input[@name='password']")
+2025-11-14 15:57:38,633 [INFO] LoginPage: Typing into 'Password12345!' into ('xpath', "//input[@name='password']")
+2025-11-14 15:57:38,761 [INFO] LoginPage: Element is clickable: ('xpath', "//input[@name='confirm']")
+2025-11-14 15:57:38,761 [INFO] LoginPage: Typing into 'Password12345!' into ('xpath', "//input[@name='confirm']")
+2025-11-14 15:57:38,883 [INFO] LoginPage: Element is clickable: ('xpath', "//input[@type='checkbox' and @name='agree']")
+2025-11-14 15:57:39,003 [INFO] LoginPage: Element is clickable: ('xpath', "//input[@value= 'Continue']")
+2025-11-14 15:57:39,639 [INFO] LoginPage: Element is visible: ('xpath', "//h1[text()='Your Account Has Been Created!']")
+2025-11-14 15:57:39,652 [INFO] LoginPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.A9FE2A6ADD75AF341B43EC7EAA0DBE26.e.92")> has text: Your Account Has Been Created!
+2025-11-14 15:57:39,687 [INFO] CartPage: Element is clickable: ('xpath', "//i[@class='fa fa-home']")
+2025-11-14 15:57:40,161 [INFO] CartPage: Element is clickable: ('xpath', "//a[normalize-space()='Phones & PDAs']")
+2025-11-14 15:57:40,774 [INFO] CartPage: Element is visible: ('xpath', "(//span[contains(text(),'Add to Cart')])[1]")
+2025-11-14 15:57:40,775 [INFO] CartPage: Element ('xpath', "(//span[contains(text(),'Add to Cart')])[1]") is visible
+2025-11-14 15:57:40,820 [INFO] CartPage: Element is clickable: ('xpath', "(//span[contains(text(),'Add to Cart')])[1]")
+2025-11-14 15:57:41,917 [INFO] CartPage: Element is visible: ('xpath', "//div[@class='alert alert-success alert-dismissible']")
+2025-11-14 15:57:41,923 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.F63DB8D27FA14F533BBE9EEE16621E1E.e.141")> has text: Success: You have added HTC Touch HD to your shopping cart!
+×
+2025-11-14 15:57:41,953 [INFO] CartPage: Element is visible: ('xpath', "(//span[contains(text(),'Add to Cart')])[2]")
+2025-11-14 15:57:41,953 [INFO] CartPage: Element ('xpath', "(//span[contains(text(),'Add to Cart')])[2]") is visible
+2025-11-14 15:57:42,002 [INFO] CartPage: Element is clickable: ('xpath', "(//span[contains(text(),'Add to Cart')])[2]")
+2025-11-14 15:57:43,061 [INFO] CartPage: Element is visible: ('xpath', "//div[@class='alert alert-success alert-dismissible']")
+2025-11-14 15:57:43,070 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.F63DB8D27FA14F533BBE9EEE16621E1E.e.144")> has text: Success: You have added iPhone to your shopping cart!
+×
+2025-11-14 15:57:43,082 [INFO] CartPage: Element is visible: ('xpath', "(//span[contains(text(),'Add to Cart')])[3]")
+2025-11-14 15:57:43,088 [INFO] CartPage: Element ('xpath', "(//span[contains(text(),'Add to Cart')])[3]") is visible
+2025-11-14 15:57:43,126 [INFO] CartPage: Element is clickable: ('xpath', "(//span[contains(text(),'Add to Cart')])[3]")
+2025-11-14 15:57:44,198 [INFO] CartPage: Element is visible: ('xpath', "//div[@class='alert alert-success alert-dismissible']")
+2025-11-14 15:57:44,205 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.F63DB8D27FA14F533BBE9EEE16621E1E.e.147")> has text: Success: You have added Palm Treo Pro to your shopping cart!
+×
+2025-11-14 15:57:44,223 [INFO] CartPage: Element is visible: ('xpath', "(//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle'])[1]")
+2025-11-14 15:57:44,229 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.F63DB8D27FA14F533BBE9EEE16621E1E.e.148")> has text: 3 item(s) - $583.19
+2025-11-14 15:57:44,243 [INFO] CartPage: Element is clickable: ('xpath', "(//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle'])[1]")
+2025-11-14 15:57:44,346 [INFO] CartPage: Element is visible: ('xpath', "//td[normalize-space()='$480.99']")
+2025-11-14 15:57:44,359 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.F63DB8D27FA14F533BBE9EEE16621E1E.e.150")> has text: $480.99
+2025-11-14 15:57:44,391 [INFO] CartPage: Element is visible: ('xpath', "//td[normalize-space()='$583.19']")
+2025-11-14 15:57:44,403 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.F63DB8D27FA14F533BBE9EEE16621E1E.e.151")> has text: $583.19
+2025-11-14 15:57:44,433 [INFO] CheckoutPage: Element is clickable: ('xpath', "//strong[normalize-space()='Checkout']")
+2025-11-14 15:57:46,011 [INFO] CheckoutPage: Element is visible: ('xpath', "//div[@class='alert alert-danger alert-dismissible']")
+2025-11-14 15:57:46,023 [INFO] CheckoutPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.0280A759544F6C4689E23F1136922A88.e.168")> has text: Products marked with *** are not available in the desired quantity or not in stock!
+×
+2025-11-14 15:57:46,090 [INFO] CheckoutPage: Element is clickable: ('xpath', "(//button[@type='button'])[13]")
+2025-11-14 15:57:46,219 [INFO] CheckoutPage: Element is clickable: ('xpath', "//a[@class='btn btn-primary']")
+2025-11-14 15:57:46,219 [INFO] CheckoutPage: Element is clickable: ('xpath', "//a[@class='btn btn-primary']")
+2025-11-14 15:57:46,760 [INFO] CheckoutPage: Element ('xpath', "//a[@class='btn btn-primary']") has been clicked
+2025-11-14 15:57:47,336 [INFO] CheckoutPage: Element is clickable: ('xpath', "//input[@id='button-payment-address']")
+2025-11-14 15:57:47,939 [INFO] CheckoutPage: Element is visible: ('xpath', "//div[contains(text(),'First Name must be between 1 and 32 characters!')]")
+2025-11-14 15:57:47,943 [INFO] CheckoutPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="8200f3d06ed802114e98cd8ad7453cf3", element="f.2230227A11FF2DE3F72541584963E8CF.d.0CCD722F1F970C7E78B2702A89357948.e.218")> has text: First Name must be between 1 and 32 characters!
+2025-11-14 15:57:52,271 [INFO] [test_checkout_without_billing_details]: ===== Test session ended =====
+

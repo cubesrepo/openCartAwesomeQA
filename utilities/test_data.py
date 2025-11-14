@@ -8,11 +8,23 @@ PASSWORD = "Password123"
 WRONGEMAIL = "wrong@gmail.com"
 WRONGPASSWORD = "wrongpassword"
 
+
+class cart:
+    CHECKOUT = By.XPATH, "//strong[normalize-space()='Checkout']"
+    MAIN_CHECKOUT = By.XPATH, "//a[@class='btn btn-primary']"
+    CART_EMPTY = By.XPATH, "//p[@class='text-center']"
+    DISMISSIBLE = By.XPATH, "//div[@class='alert alert-danger alert-dismissible']"
+class wishlist:
+    SUCCESS_MODIFIED_WISHLIST = By.XPATH, "//div[@class='alert alert-success alert-dismissible']"
+    WISH_LIST_EMPTY =By.XPATH, "//p[normalize-space()='Your wish list is empty.']"
+    REMOVE_WISHLIST = By.XPATH, "(//a[@class='btn btn-danger'])[1]"
 class homepage:
+    PHONE_AND_PDA = By.XPATH, "//a[normalize-space()='Phones & PDAs']"
+
     MY_ACCOUNT = By.XPATH, "//a[@title='My Account']"
     REGISTER = By.XPATH, "//a[text() = 'Register']"
     LOGIN = By.XPATH, "//a[text() = 'Login']"
-
+    HOME_ICON = By.XPATH, "//i[@class='fa fa-home']"
     ADD_TO_CART_BTN_3 = By.XPATH, "(//span[contains(text(),'Add to Cart')])[3]"
     WISH_LIST_BADGE = By.XPATH, "//a[@id='wishlist-total']"
     SHOPPING_CART_BADGE = By.XPATH,"//a[@title='Shopping Cart']"
@@ -71,23 +83,27 @@ class login:
 
 class checkout:
 
-    FIRSTNAME = By.XPATH ,"//input[@name= 'firstname']"
-    LASTNAME = By.XPATH, "//input[@name= 'lastname']"
-    COMPANY = By.XPATH, "//input[@name= 'company']"
-    ADDRESS_1 = By.XPATH, "//input[@name= 'address_1']"
-    CITY = By.XPATH, "//input[@name= 'city']"
-    POST_CODE = By.XPATH, "//input[@name= 'postcode']"
-    SELECT_COUNTRY = By.XPATH, "//select[@name='country_id']"
-    SELECT_REGION = By.XPATH, "//select[@name='zone_id']"
+    FIRSTNAME = By.XPATH ,"//input[@id='input-payment-firstname']"
+    LASTNAME = By.XPATH, "//input[@id='input-payment-lastname']"
+    COMPANY = By.XPATH, "//input[@id='input-payment-company']"
+    ADDRESS_1 = By.XPATH, "(//input[@id='input-payment-address-1'])[1]"
+    CITY = By.XPATH, "//input[@id='input-payment-city']"
+    POST_CODE = By.XPATH, "//input[@id='input-payment-postcode']"
+    SELECT_COUNTRY = By.XPATH, "//select[@id='input-payment-country']"
+    SELECT_REGION = By.XPATH, "//select[@id='input-payment-zone']"
 
-    CONTINUE_ONE = By.XPATH, "//input[@value = 'Continue']"
-    CONTINUE_TWO = By.XPATH, "//input[@id = 'button-shipping-address']"
-    CONTINUE_THREE= By.XPATH, "//input[@id = 'button-shipping-method']"
-    CONTINUE_FOUR = By.XPATH, "//input[@id = 'button-payment-method']"
-    DELIVARY_METH0D_COMMENT = By.XPATH, "//textarea[@name='comment']"
+    BILLING_DETAILS_CONTINUE = By.XPATH, "//input[@id='button-payment-address']"
+    DELIVERY_DETAILS_CONTINUE = By.XPATH, "//input[@id='button-shipping-address']"
+    DELIVERY_METHOD_CONTINUE = By.XPATH, "//input[@id='button-shipping-method']"
+    PAYMENT_METHOD_CONTINUE = By.XPATH, "//input[@id = 'button-payment-method']"
+
+    DELIVERY_METH0D_COMMENT = By.XPATH, "//textarea[@name='comment']"
     PAYMENT_METH0D_COMMENT = By.XPATH, "//textarea[@name='comment']"
     PRIVACY_AGREE = By.XPATH, "//input[@type='checkbox' and @name='agree']"
     CONFIRM_ORDER = By.XPATH, "//input[@value = 'Confirm Order']"
 
-    ORDER_HAS_BEEN_PLACE_MESSAGE = By.XPATH, "//h1[text()='Your order has been placed!']"
+    ORDER_HAS_BEEN_PLACE_MESSAGE = By.XPATH, "//h1[normalize-space()='Your order has been placed!']"
     CONTINUE_LAST = By.XPATH, "//a[@href='https://awesomeqa.com/ui/index.php?route=common/home']"
+
+    TERMS_CONDITION = By.XPATH, "//input[@name='agree']"
+    USE_EXISTING_ADDRESS_DELIVERY_DETAILS = By.XPATH, "(//input[@name='shipping_address'])[1]"
